@@ -15,6 +15,7 @@
 		9B17E2311F68ED5C00FFFF80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B17E22F1F68ED5C00FFFF80 /* LaunchScreen.storyboard */; };
 		9B17E23C1F68ED5C00FFFF80 /* clockTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B17E23B1F68ED5C00FFFF80 /* clockTestTests.m */; };
 		9B17E2471F68ED5C00FFFF80 /* clockTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B17E2461F68ED5C00FFFF80 /* clockTestUITests.m */; };
+		9B17E2561F68ED6700FFFF80 /* HNEmotionCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B17E2551F68ED6700FFFF80 /* HNEmotionCircleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		9B17E2421F68ED5C00FFFF80 /* clockTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clockTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B17E2461F68ED5C00FFFF80 /* clockTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = clockTestUITests.m; sourceTree = "<group>"; };
 		9B17E2481F68ED5C00FFFF80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B17E2541F68ED6700FFFF80 /* HNEmotionCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNEmotionCircleView.h; sourceTree = "<group>"; };
+		9B17E2551F68ED6700FFFF80 /* HNEmotionCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNEmotionCircleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				9B17E2251F68ED5C00FFFF80 /* AppDelegate.m */,
 				9B17E2271F68ED5C00FFFF80 /* ViewController.h */,
 				9B17E2281F68ED5C00FFFF80 /* ViewController.m */,
+				9B17E2541F68ED6700FFFF80 /* HNEmotionCircleView.h */,
+				9B17E2551F68ED6700FFFF80 /* HNEmotionCircleView.m */,
 				9B17E22A1F68ED5C00FFFF80 /* Main.storyboard */,
 				9B17E22D1F68ED5C00FFFF80 /* Assets.xcassets */,
 				9B17E22F1F68ED5C00FFFF80 /* LaunchScreen.storyboard */,
@@ -275,6 +280,7 @@
 			files = (
 				9B17E2291F68ED5C00FFFF80 /* ViewController.m in Sources */,
 				9B17E2261F68ED5C00FFFF80 /* AppDelegate.m in Sources */,
+				9B17E2561F68ED6700FFFF80 /* HNEmotionCircleView.m in Sources */,
 				9B17E2231F68ED5C00FFFF80 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

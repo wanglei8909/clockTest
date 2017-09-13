@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "HNEmotionCircleView.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    HNEmotionCircleView *view = [[HNEmotionCircleView alloc] initWithFrame:CGRectMake(0, 20, self.view.frame.size.width, 300)];
+    [self.view addSubview:view];
+    [view setProgress:1];
 }
 
 
